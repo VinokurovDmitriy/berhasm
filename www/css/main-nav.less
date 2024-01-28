@@ -1,0 +1,439 @@
+//NAV
+.slick-hidden {
+  visibility: hidden;
+}
+
+#constructionBg{
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/files/construct-bg.jpg") no-repeat center;
+  background-size: cover;
+  .cBgfader{
+    .absolute-full();
+    background: fade(@white,90%);
+  }
+}
+#topNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: @white;
+  color: @black;
+  z-index: 110;
+  border-bottom: 1px solid @black;
+  font-weight: 400;
+  #salesBanner{
+    img,svg{
+      height: 100%;
+      max-height: 260px;
+    }
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 40px;
+  }
+  #logo {
+    text-transform: uppercase;
+    color: @black;
+    font-weight: 600;
+    font-size: 22px;
+    flex-shrink: 0;
+    margin-right: 2.5vw;
+  }
+  #mainNav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+    a {
+      color: @black;
+      .transition();
+    }
+  }
+  .right-controls {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+
+    .currency {
+      ul {
+        list-style: none;
+        display: flex;
+        li {
+          &.active,&:hover{
+            a{color: @black;}
+          }
+          margin: 0 6px;
+          a {
+            color: @gray;
+            font-size: 16px;
+          }
+          &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            margin-left: 4px;
+            height: 16px;
+            border-left: 1px solid @black;
+            .rotate(20deg);
+            margin-top: -7px;
+          }
+          &:last-child {
+            &:after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.navMenu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  &#catNavMenu,&#mainNavMenu{
+    &>li{
+      margin-left: -1px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 18px;
+      border-left: 1px solid transparent;
+      border-right: 1px solid transparent;
+      .mainNavSub{
+        position: fixed;
+        left: 0;
+        padding: 20px 0;
+        right: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        .navMenuBlock{
+          flex:1 1 auto;
+          width: 25%;
+          &.w2{
+            width: 50%;
+          }
+        }
+        .dropdownItem{
+          line-height: 2;
+          font-weight: 400;
+          color: @gray;
+          padding:0 2vw;
+        }
+      }
+
+      .mainSecondNavSub {
+        position: absolute;
+        right: -1px;
+        padding: 20px 0;
+        //box-shadow: 1px 1px 5px fade(@black,20%);
+        a{
+          white-space: nowrap;
+        }
+        span{
+          font-weight: 300;
+        }
+        li{
+          padding:0 20px;
+          &:hover{
+            background: @white;
+          }
+        }
+      }
+      .mainNavSub,.mainSecondNavSub {
+        top: 41px;
+
+        visibility: hidden;
+        opacity: 0;
+        background-color: @menu-grey;
+        //.transition()(0.2s);
+        list-style: none;
+        li {
+          line-height: 2;
+        }
+      }
+      &.dropdownList{
+        li{
+          margin-left: 0;
+        }
+        &:after{
+          content: '';
+          display: block;
+          position: absolute;
+          top:100%;
+          left: 0;
+          height: 1px;
+          width: 100%;
+          background: transparent;
+          //.transition();
+        }
+        &:hover {
+          &:after{
+            background: @menu-grey;
+          }
+        }
+      }
+      &:hover {
+        background-color: @menu-grey;
+        border-left: 1px solid @black;
+        border-right: 1px solid @black;
+        .mainNavSub,.mainSecondNavSub {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+.lang{
+  padding: 0 20px;
+  .item-lang{
+    padding: 0 2px;
+    color: @gray;
+    &:hover,&.active{
+      color: @black;
+    }
+  }
+}
+
+
+
+#mobNavBtn{
+  display: none;
+  cursor: pointer;
+  padding:0 10px;
+  flex: 0 0 auto;
+  .burger {
+    width: 20px;
+    height: 33px;
+    overflow: hidden;
+    span {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background-color: @gray-dark;
+      //.transition()(0.1s);
+      &:nth-child(1) {
+        top: 6px;
+      }
+      &:nth-child(2) {
+        top: 16px;
+      }
+      &:nth-child(3) {
+        top: 16px;
+      }
+      &:nth-child(4) {
+        top: 26px;
+      }
+    }
+
+  }
+  &.active {
+    .burger {
+      span {
+        &:nth-child(1) {
+          .translateY(-120%);
+          opacity: 0;
+        }
+        &:nth-child(2) {
+          .rotate(45deg);
+        }
+        &:nth-child(3) {
+          .rotate(-45deg);
+        }
+        &:nth-child(4) {
+          .translateY(120%);
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
+@media only screen {
+  @media (max-width: 1280px) {
+    #topNav{
+      #logo{
+        font-size: 18px;
+      }
+      .navMenu{
+        font-size: 13px;
+      }
+      .navMenu#catNavMenu, .navMenu#mainNavMenu{
+        &> li{
+          padding: 0 10px;
+        }
+      }
+      .right-controls{
+        font-size: 13px;
+        .currency ul li a{
+          font-size: 13px;
+        }
+      }
+      .lang{
+        padding: 0 10px;
+      }
+    }
+  }
+  @media (max-width: 960px) {
+
+    #topNav{
+      border-width: 1px;
+      .wrapper {
+        justify-content: normal;
+        height: auto;
+        width: 100%;
+      }
+      #logo{
+        padding: 0 10px;
+        font-size: 18px;
+        justify-self: flex-start;
+        flex-grow: 1;
+      }
+      #mobNavBtn{display: block;}
+      #mainNav{
+        z-index: 209;
+        overflow: auto;
+        background: @menu-grey;
+        position: fixed;
+        top: 42px;
+        bottom:0;
+        visibility: hidden;
+        opacity: 0;
+        &.active{
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+    }
+    #mobileNavMenu{
+      list-style: none;
+      flex-direction: column;
+      width: 100%;
+      padding: 0 10px;
+      li{
+        margin-left:0;
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid @gray;
+        text-align: left;
+        align-items: center;
+        justify-content: flex-start;
+        a{
+          display: block;
+          padding: 15px 0;
+        }
+        &.dropdownList{
+          &:after{
+            font-family: 'icomoon',sans-serif;
+            content: "\e905";
+            display: inline-block;
+            position: absolute;
+            right: 0;
+            width: auto;
+            padding:15px 0;
+            text-align: right;
+            font-size:19px;
+            line-height: 19px;
+          }
+          &.opened{
+            &:after{
+              content:"\e906";
+            }
+            .mobileNavSub{
+              visibility: visible;
+              opacity: 1;
+            }
+          }
+          a {
+            display: inline-block;
+          }
+        }
+      }
+      .mobileNavSub{
+        list-style: none;
+        border-top:1px solid @gray;
+        position: absolute;
+        top:100%;
+        left: 0;
+        width: 100%;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 210;
+        background: @menu-grey;
+        a{
+          display: block !important;
+          padding-left: 30px;
+        }
+        a span{
+          font-weight: 300;
+        }
+        //&.active{
+        //  visibility: visible;
+        //  opacity: 1;
+        //}
+      }
+    }
+    .lang{
+      padding: 0 10px;
+      .item-lang{
+        font-size: 16px;
+        line-height: 1.35;
+        padding: 0;
+        color: @gray;
+        &.active{
+          display: none;
+          color: @black;
+        }
+      }
+    }
+    .mobile-card-btn {
+      display: block;
+      padding:0 10px;
+      font-size: 22px;
+      line-height: 1;
+    }
+    #mobNavBtn{
+      padding: 4px 10px;
+      border-left: 1px solid transparent;
+      &:after{
+        content: '';
+        display: block;
+        position: absolute;
+        top:100%;
+        left: 0;
+        height: 1px;
+        width: 100%;
+        background: transparent;
+
+        //.transition();
+      }
+      &.active{
+        background: @menu-grey;
+        border-left: 1px solid @black;
+        &:after{
+          background: @menu-grey;
+        }
+      }
+    }
+  }
+}

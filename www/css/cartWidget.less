@@ -1,0 +1,125 @@
+@import "mixins";
+@import "variables";
+
+.header_basket {
+  display: inline-block;
+  color: @black;
+}
+.header_basket_block {
+  position: fixed;
+  display: none;
+  right: 0;
+  top: 50px;
+  width: 340px;
+  height: 70vh;
+  background-color: @white;
+  border: 1px solid @black;
+  z-index: 10;
+  a {
+    color: inherit !important;
+  }
+  &.active {
+    display: block;
+  }
+}
+.header_basket_block_title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  border-bottom: 1px solid @black;
+  line-height: 1.5em;
+  background-color: @white;
+  z-index: 2;
+  .header_basket_block_close {
+    display: inline-block;
+    float: right;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+}
+.header_basket_block_items_container {
+  width: 100%;
+  height: 100%;
+  padding: 50px 0 110px;
+}
+.header_basket_block_items_wrap {
+  height: 100%;
+  overflow: auto;
+}
+.header_basket_block_item {
+  width: 100%;
+  padding: 15px;
+  border-bottom: 1px solid @gray-light;
+  overflow: hidden;
+  .header_basket_block_item_img {
+    width: 30%;
+    float: left;
+    padding-bottom: 40%;
+    .bg-contain();
+  }
+  .header_basket_block_item_right {
+    width: 70%;
+    float: right;
+    padding-left: 10px;
+    line-height: 2;
+    .header_basket_block_item_count {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+.header_basket_block_footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: @white;
+  z-index: 2;
+  .header_basket_block_cost {
+    margin-bottom: 20px;
+    .header_basket_block_total {
+      float: right;
+    }
+  }
+  .header_basket_block_link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .btn.black {color: @white !important}
+  }
+}
+@media only screen {
+  @media (max-width: 960px) {
+    .header_basket_block_link .btn{
+      padding: 10px;
+    }
+    .header_basket_block {
+      border-left:none;
+      border-right:none;
+      left: 0;
+      right: 0;
+      top: 41px;
+      width: auto;
+      bottom: 0;
+      height: auto;
+      //height: 80vh;
+    }
+    .header_basket_block_item{
+      .header_basket_block_item_img{
+        width: 25%;}
+      .header_basket_block_item_right{
+        width: 75%;
+      }
+      .qtyBtn{
+        font-size: 1.5em;}
+    }
+
+  }
+}

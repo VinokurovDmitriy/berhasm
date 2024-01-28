@@ -1,0 +1,148 @@
+//Footer
+#footer{
+  z-index: 2;
+  border-top: 1px solid @black;
+  //position: absolute;
+  //bottom: 0;
+  //left: 0;
+  //right: 0;
+  width: 100%;
+  background: @white;
+  color: @black;
+  line-height: 2;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: -1px;
+  h3{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  a{
+    line-height: 1.6;
+    color: @black;
+  }
+  ul{
+    list-style: none;
+    li{
+      line-height: 1.6;
+      display: block;
+    }
+  }
+  p{
+    line-height: 1.6;
+  }
+  .wrapper{
+    padding:2em 0;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  .footerBlock{
+    display: inline-block;
+    flex:1 1 auto;
+    width: 25%;
+    padding-right: 30px;
+  }
+  .footerCompanyList{
+    li{
+      a{
+        font-weight: 400;
+      }
+    }
+  }
+  .footerSocialsList{
+    li{
+      display: inline-block;
+    }
+  }
+}
+#footerMobile{
+  border-top:1px solid @black;
+  display: none;
+  width: 100%;
+  background: @white;
+  overflow: hidden;
+  font-weight: 400;
+  z-index: 2;
+  ul{
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0 10px;
+    display: flex;
+    li{
+      display: flex;
+      margin-left:0;
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid @menu-grey;
+      text-align: left;
+      align-items: center;
+      justify-content: flex-start;
+      a,p,h3,h4{
+        font-size: 14px;
+        line-height: 1.35;
+        display: inline-block;
+        padding: 15px 0;
+        margin: 0;
+      }
+      h4{
+        padding: 25px 0;
+      }
+    }
+  }
+  .dropdownList{
+    display: block;
+    overflow: hidden;
+    max-height: 49px;
+  }
+  .dropdownList.opened{
+    max-height: 1000px;
+    .footerSubNav{
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  .dropdownList h3{
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    &:before{
+      position: absolute;
+      top: 50%;
+      left: 0;
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 4px solid transparent;
+      border-bottom: 4px solid transparent;
+      border-left: 4px solid @black;
+      transform: translate3d(0,-52%,0);
+    }
+  }
+  .footerSubNav{
+    border-top:1px solid @menu-grey;
+
+    //position: absolute;
+    //top:100%;
+    //left: 0;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 3;
+    background: @white;
+    a,span{
+      font-weight: 300;
+    }
+  }
+}
+@media only screen {
+  @media (max-width: 959px) {
+    #footer{
+      display: none;
+    }
+    #footerMobile{
+      display: block;
+    }
+  }
+}

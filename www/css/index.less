@@ -1,0 +1,173 @@
+.block{
+  display: block;
+}
+.fullW{
+  width: 100%;
+}
+#indexShopLinks{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.indexShopLink{
+  flex: 1 1 auto;
+  display: block;
+  padding: 60px 0;
+  width: 50%;
+  &:first-child{
+    border-right: 1px solid @black;
+  }
+  //&:last-child{
+  //  border-left: 1px solid @black;
+  //}
+  .indexLinkBg{
+    transform: scale(0.9);
+  }
+  .indexLinkTitle{
+    position: absolute;
+    padding: 0 4%;
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 300;
+    color:@black;
+    &.first{
+      display: block;
+    }
+    &.second{
+      display: none;
+    }
+  }
+  .indexLinkBg{
+    width: 100%;
+  }
+  &:hover{
+    .indexLinkTitle{
+      &.first{
+        display: none;
+      }
+      &.second{
+        display: block;
+      }
+    }
+  }
+}
+#main.is100{
+  .contentWrapper{
+    padding-top: 0;
+    &:after{
+      width: 0;
+      height: 0;
+    }
+  }
+  #content{
+    &.wrapper{
+      width: 100%;
+    }
+  }
+}
+#indexVideo{
+  border-top: 1px solid @black;
+  border-bottom: 1px solid @black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  .indexVideoImage {
+    width: 100%;
+  }
+
+  .mute{
+    z-index: 3;
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+    background: @white;
+    border:1px solid @black;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    .icon{
+      line-height: 36px;
+    }
+  }
+}
+#indexNewLink{
+  padding: 60px;
+  text-align: center;
+}
+.squareLink{
+  padding: 15px 60px;
+  border: 1px solid @black;
+  display: inline-block;
+  line-height: 1;
+  font-size: 18px;
+  color: @black;
+  font-weight: 400;
+  background: transparent;
+  &:hover{
+    background: @gray;
+    color: @white;
+  }
+}
+
+@media only screen {
+  @media (max-width: 1280px) {
+    .indexShopLink{
+      padding: 60px 0 20px;
+      .indexLinkTitle{
+        font-size: 20px;
+        max-width: 40%;
+        z-index: 3;
+      }
+      .indexLinkBg{
+        z-index: 2;
+        margin-top: -30px;
+      }
+    }
+    #indexNewLink{
+      padding: 50px 10px;
+    }
+    .squareLink{
+      font-size: 16px;
+      padding: 15px 40px;
+    }
+  }
+  @media (max-width: 960px) {
+    .stockRegion{
+      width: 100%;
+    }
+    #indexVideo{
+      border-top:1px solid @black;
+      border-bottom: 1px solid @black;
+    }
+    .indexShopLink{
+      padding: 70px 0 100px;
+      overflow: hidden;
+      .indexLinkTitle{
+        padding: 0;
+        top: 50px;
+        left: 10px;
+        font-size: 13px;
+        max-width: 30%;
+      }
+      .indexLinkBg{
+        margin-top: 60px;
+        transform: scale(1.45);
+      }
+      &:last-child{border: none;}
+    }
+    .squareLink{
+      width: 100%;
+      border-width: 1px;
+    }
+    #indexNewLink{
+      padding: 20px 10px;
+    }
+  }
+}

@@ -1,0 +1,1 @@
+a:2:{i:0;a:1:{i:0;a:1:{i:0;a:4:{s:15:"constraint_name";s:28:"FK__bhm_stockists_categories";s:11:"column_name";s:11:"category_id";s:21:"referenced_table_name";s:24:"bhm_stockists_categories";s:22:"referenced_column_name";s:2:"id";}}}i:1;N;}

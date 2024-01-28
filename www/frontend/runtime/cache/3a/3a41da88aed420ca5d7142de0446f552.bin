@@ -1,0 +1,747 @@
+a:2:{i:0;a:1:{i:0;a:2:{i:0;a:7:{s:2:"id";s:1:"1";s:8:"title_ru";s:5:"Woman";s:8:"title_en";s:5:"Woman";s:7:"html_ru";s:1792:"<p>Measurements shown in centimeters. Denim sizing shown in inches.</p><table class="sizeChart__tabel">
+<tbody>
+<tr>
+	<th><br>
+	</th>
+	<th>XS
+	</th>
+	<th>S
+	</th>
+	<th>M
+	</th>
+	<th>L
+	</th>
+	<th>XL
+	</th>
+</tr>
+<tr>
+	<th>Chest</th>
+	<td>81
+	</td>
+	<td>85
+	</td>
+	<td>89
+	</td>
+	<td>93
+	</td>
+	<td>97
+	</td>
+</tr>
+<tr>
+	<th>Waist</th>
+	<td>64
+	</td>
+	<td>68
+	</td>
+	<td>72
+	</td>
+	<td>76
+	</td>
+	<td>80
+	</td>
+</tr>
+<tr>
+	<th>Hips</th>
+	<td>90
+	</td>
+	<td>94
+	</td>
+	<td>98
+	</td>
+	<td>102
+	</td>
+	<td>106
+	</td>
+</tr>
+</tbody>
+</table><p>Use the charts below to convert between standard size formats.
+</p><table class="sizeChart__tabel">
+<tbody>
+<tr>
+	<th>
+	</th>
+	<th>XS
+	</th>
+	<th>S
+	</th>
+	<th>M
+	</th>
+	<th>L
+	</th>
+	<th>XL
+	</th>
+</tr>
+<tr>
+	<th>Denim</th>
+	<td>25/26''
+	</td>
+	<td>26/27''
+	</td>
+	<td>27/28''
+	</td>
+	<td>28/29''
+	</td>
+	<td>29/30''
+	</td>
+</tr>
+<tr>
+	<th>France</th>
+	<td>34
+	</td>
+	<td>36
+	</td>
+	<td>38
+	</td>
+	<td>40
+	</td>
+	<td>42
+	</td>
+</tr>
+<tr>
+	<th>Italy</th>
+	<td>38
+	</td>
+	<td>40
+	</td>
+	<td>42
+	</td>
+	<td>44
+	</td>
+	<td>46
+	</td>
+</tr>
+<tr>
+	<th>UK</th>
+	<td>6
+	</td>
+	<td>8
+	</td>
+	<td>10
+	</td>
+	<td>12
+	</td>
+	<td>14
+	</td>
+</tr>
+<tr>
+	<th>US</th>
+	<td>2
+	</td>
+	<td>4
+	</td>
+	<td>6
+	</td>
+	<td>8
+	</td>
+	<td>10
+	</td>
+</tr>
+<tr>
+	<th>Japan</th>
+	<td>7
+	</td>
+	<td>9
+	</td>
+	<td>11
+	</td>
+	<td>13
+	</td>
+	<td>15
+	</td>
+</tr>
+<tr>
+	<th>China</th>
+	<td>160/84A
+	</td>
+	<td>165/88A
+	</td>
+	<td>170/92A
+	</td>
+	<td>170/96A
+	</td>
+	<td>175/100A
+	</td>
+</tr>
+<tr>
+	<th>Korea</th>
+	<td>44
+	</td>
+	<td>55
+	</td>
+	<td>66
+	</td>
+	<td>77
+	</td>
+	<td>88
+	</td>
+</tr>
+</tbody>
+</table>";s:7:"html_en";s:1827:"<p>Measurements shown in centimeters. Denim sizing shown in inches.
+</p><table class="sizeChart__tabel">
+<tbody>
+<tr>
+	<th><br>
+	</th>
+	<th>XS
+	</th>
+	<th>S
+	</th>
+	<th>M
+	</th>
+	<th>L
+	</th>
+	<th>XL
+	</th>
+</tr>
+<tr>
+	<th>Chest
+	</th>
+	<td>81
+	</td>
+	<td>85
+	</td>
+	<td>89
+	</td>
+	<td>93
+	</td>
+	<td>97
+	</td>
+</tr>
+<tr>
+	<th>Waist
+	</th>
+	<td>64
+	</td>
+	<td>68
+	</td>
+	<td>72
+	</td>
+	<td>76
+	</td>
+	<td>80
+	</td>
+</tr>
+<tr>
+	<th>Hips
+	</th>
+	<td>90
+	</td>
+	<td>94
+	</td>
+	<td>98
+	</td>
+	<td>102
+	</td>
+	<td>106
+	</td>
+</tr>
+</tbody>
+</table><p>Use the charts below to convert between standard size formats.
+</p><table class="sizeChart__tabel">
+<tbody>
+<tr>
+	<th>
+	</th>
+	<th>XS
+	</th>
+	<th>S
+	</th>
+	<th>M
+	</th>
+	<th>L
+	</th>
+	<th>XL
+	</th>
+</tr>
+<tr>
+	<th>Denim
+	</th>
+	<td>25/26''
+	</td>
+	<td>26/27''
+	</td>
+	<td>27/28''
+	</td>
+	<td>28/29''
+	</td>
+	<td>29/30''
+	</td>
+</tr>
+<tr>
+	<th>France
+	</th>
+	<td>34
+	</td>
+	<td>36
+	</td>
+	<td>38
+	</td>
+	<td>40
+	</td>
+	<td>42
+	</td>
+</tr>
+<tr>
+	<th>Italy
+	</th>
+	<td>38
+	</td>
+	<td>40
+	</td>
+	<td>42
+	</td>
+	<td>44
+	</td>
+	<td>46
+	</td>
+</tr>
+<tr>
+	<th>UK
+	</th>
+	<td>6
+	</td>
+	<td>8
+	</td>
+	<td>10
+	</td>
+	<td>12
+	</td>
+	<td>14
+	</td>
+</tr>
+<tr>
+	<th>US
+	</th>
+	<td>2
+	</td>
+	<td>4
+	</td>
+	<td>6
+	</td>
+	<td>8
+	</td>
+	<td>10
+	</td>
+</tr>
+<tr>
+	<th>Japan
+	</th>
+	<td>7
+	</td>
+	<td>9
+	</td>
+	<td>11
+	</td>
+	<td>13
+	</td>
+	<td>15
+	</td>
+</tr>
+<tr>
+	<th>China
+	</th>
+	<td>160/84A
+	</td>
+	<td>165/88A
+	</td>
+	<td>170/92A
+	</td>
+	<td>170/96A
+	</td>
+	<td>175/100A
+	</td>
+</tr>
+<tr>
+	<th>Korea
+	</th>
+	<td>44
+	</td>
+	<td>55
+	</td>
+	<td>66
+	</td>
+	<td>77
+	</td>
+	<td>88
+	</td>
+</tr>
+</tbody>
+</table>";s:4:"sort";s:1:"1";s:6:"status";s:1:"1";}i:1;a:7:{s:2:"id";s:1:"3";s:8:"title_ru";s:3:"Man";s:8:"title_en";s:3:"Man";s:7:"html_ru";s:1843:"<p>Measurements shown in centimeters. Denim sizing shown in inches.
+</p><table class="sizeChart__tabel">
+<tbody>
+<tr>
+	<th><br>
+	</th>
+	<th>XS
+	</th>
+	<th>S
+	</th>
+	<th>M
+	</th>
+	<th>L
+	</th>
+	<th>XL
+	</th>
+</tr>
+<tr>
+	<th>Collar
+	</th>
+	<td>40
+	</td>
+	<td>41
+	</td>
+	<td>43
+	</td>
+	<td>44
+	</td>
+	<td>46
+	</td>
+</tr>
+<tr>
+	<th>Bust
+	</th>
+	<td>88
+	</td>
+	<td>92
+	</td>
+	<td>96
+	</td>
+	<td>100
+	</td>
+	<td>104
+	</td>
+</tr>
+<tr>
+	<th>Waist
+	</th>
+	<td>76
+	</td>
+	<td>80
+	</td>
+	<td>84
+	</td>
+	<td>88
+	</td>
+	<td>92
+	</td>
+</tr>
+</tbody>
+</table><p>Use the charts below to convert between standard size formats.
+</p><table class="sizeChart__tabel">
+<tbody>
+<tr>
+	<th>BERHASM</th>
+	<th>XS
+	</th>
+	<th>S
+	</th>
+	<th>M
+	</th>
+	<th>L
+	</th>
+	<th>XL
+	</th>
+</tr>
+<tr>
+	<th>Denim
+	</th>
+	<td>28/29''
+	</td>
+	<td>30/31''
+	</td>
+	<td>31/32''
+	</td>
+	<td>33/34''
+	</td>
+	<td>36''
+	</td>
+</tr>
+<tr>
+	<th>France
+	</th>
+	<td>46
+	</td>
+	<td>48
+	</td>
+	<td>50
+	</td>
+	<td>52
+	</td>
+	<td>54
+	</td>
+</tr>
+<tr>
+	<th>Italy
+	</th>
+	<td>46
+	</td>
+	<td>48
+	</td>
+	<td>50
+	</td>
+	<td>52
+	</td>
+	<td>54
+	</td>
+</tr>
+<tr>
+	<th>UK
+	</th>
+	<td>36
+	</td>
+	<td>38
+	</td>
+	<td>40
+	</td>
+	<td>42
+	</td>
+	<td>44
+	</td>
+</tr>
+<tr>
+	<th>US
+	</th>
+	<td>36
+	</td>
+	<td>38
+	</td>
+	<td>40
+	</td>
+	<td>42
+	</td>
+	<td>44
+	</td>
+</tr>
+<tr>
+	<th>Japan
+	</th>
+	<td>37
+	</td>
+	<td>38
+	</td>
+	<td>39
+	</td>
+	<td>41
+	</td>
+	<td>42
+	</td>
+</tr>
+<tr>
+	<th>China
+	</th>
+	<td>180/92A
+	</td>
+	<td>180/96A
+	</td>
+	<td>185/100A
+	</td>
+	<td>185/104A
+	</td>
+	<td>185/108A
+	</td>
+</tr>
+<tr>
+	<th>Korea
+	</th>
+	<td>95
+	</td>
+	<td>100
+	</td>
+	<td>105
+	</td>
+	<td>110
+	</td>
+	<td>115
+	</td>
+</tr>
+</tbody>
+</table>";s:7:"html_en";s:1843:"<p>Measurements shown in centimeters. Denim sizing shown in inches.
+</p><table class="sizeChart__tabel">
+<tbody>
+<tr>
+	<th><br>
+	</th>
+	<th>XS
+	</th>
+	<th>S
+	</th>
+	<th>M
+	</th>
+	<th>L
+	</th>
+	<th>XL
+	</th>
+</tr>
+<tr>
+	<th>Collar
+	</th>
+	<td>40
+	</td>
+	<td>41
+	</td>
+	<td>43
+	</td>
+	<td>44
+	</td>
+	<td>46
+	</td>
+</tr>
+<tr>
+	<th>Bust
+	</th>
+	<td>88
+	</td>
+	<td>92
+	</td>
+	<td>96
+	</td>
+	<td>100
+	</td>
+	<td>104
+	</td>
+</tr>
+<tr>
+	<th>Waist
+	</th>
+	<td>76
+	</td>
+	<td>80
+	</td>
+	<td>84
+	</td>
+	<td>88
+	</td>
+	<td>92
+	</td>
+</tr>
+</tbody>
+</table><p>Use the charts below to convert between standard size formats.
+</p><table class="sizeChart__tabel">
+<tbody>
+<tr>
+	<th>BERHASM</th>
+	<th>XS
+	</th>
+	<th>S
+	</th>
+	<th>M
+	</th>
+	<th>L
+	</th>
+	<th>XL
+	</th>
+</tr>
+<tr>
+	<th>Denim
+	</th>
+	<td>28/29''
+	</td>
+	<td>30/31''
+	</td>
+	<td>31/32''
+	</td>
+	<td>33/34''
+	</td>
+	<td>36''
+	</td>
+</tr>
+<tr>
+	<th>France
+	</th>
+	<td>46
+	</td>
+	<td>48
+	</td>
+	<td>50
+	</td>
+	<td>52
+	</td>
+	<td>54
+	</td>
+</tr>
+<tr>
+	<th>Italy
+	</th>
+	<td>46
+	</td>
+	<td>48
+	</td>
+	<td>50
+	</td>
+	<td>52
+	</td>
+	<td>54
+	</td>
+</tr>
+<tr>
+	<th>UK
+	</th>
+	<td>36
+	</td>
+	<td>38
+	</td>
+	<td>40
+	</td>
+	<td>42
+	</td>
+	<td>44
+	</td>
+</tr>
+<tr>
+	<th>US
+	</th>
+	<td>36
+	</td>
+	<td>38
+	</td>
+	<td>40
+	</td>
+	<td>42
+	</td>
+	<td>44
+	</td>
+</tr>
+<tr>
+	<th>Japan
+	</th>
+	<td>37
+	</td>
+	<td>38
+	</td>
+	<td>39
+	</td>
+	<td>41
+	</td>
+	<td>42
+	</td>
+</tr>
+<tr>
+	<th>China
+	</th>
+	<td>180/92A
+	</td>
+	<td>180/96A
+	</td>
+	<td>185/100A
+	</td>
+	<td>185/104A
+	</td>
+	<td>185/108A
+	</td>
+</tr>
+<tr>
+	<th>Korea
+	</th>
+	<td>95
+	</td>
+	<td>100
+	</td>
+	<td>105
+	</td>
+	<td>110
+	</td>
+	<td>115
+	</td>
+</tr>
+</tbody>
+</table>";s:4:"sort";s:1:"3";s:6:"status";s:1:"1";}}}i:1;N;}

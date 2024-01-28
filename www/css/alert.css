@@ -1,0 +1,50 @@
+.alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  min-width: 400px;
+  z-index: 1000;
+  padding: 30px;
+  border-radius: 0;
+  border: 1px solid #000;
+}
+@media (max-width: 959px) {
+  .alert {
+    min-width: 320px;
+  }
+}
+.alert .close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-family: 'Halvar Breit', sans-serif;
+  border: 1px solid #000;
+  opacity: 0.6;
+  text-shadow: none;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 20px;
+  font-weight: 100;
+  border-radius: 50%;
+  text-align: center;
+}
+.alert.alert-success {
+  background-color: #fff;
+}
+.alert.alert-danger {
+  background-color: #fff;
+}
+.site-error .alert {
+  position: relative;
+  top: auto;
+  left: auto;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  border: none;
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 1.5em;
+}
