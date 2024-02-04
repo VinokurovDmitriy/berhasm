@@ -14,6 +14,10 @@ return [
     'bootstrap' => ['log', 'common\bootstrap\SetUp'],
     'modules' => [],
 
+    'aliases' => [
+        '@bower' => '@vendor/bower-asset',
+        '@npm'   => '@vendor/npm-asset',
+    ],
     'controllerMap' => [
         'elfinder' => [
             'class' => 'mihaildev\elfinder\PathController',
