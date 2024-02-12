@@ -42,15 +42,15 @@
     "yiisoft/yii2-queue": "^2.0",
     "voskobovich/yii2-many-many-behavior": "^3.0",
     "yiisoft/yii2-httpclient": "~2.0.0",
-    "arogachev/yii2-sortable": "^0.1.6",
+    "arogachev/yii2-sortable": "^0.1.6"
   },
   "require-dev": {
     "yiisoft/yii2-debug": "~2.0.0",
     "yiisoft/yii2-gii": "~2.0.0",
     "yiisoft/yii2-faker": "~2.0.0",
-
     "codeception/base": "^2.2.3",
-    "codeception/verify": "~0.3.1"
+    "codeception/verify": "~0.3.1",
+    "phpunit/phpunit": "^4.8.36"
   },
   "config": {
     "platform": {

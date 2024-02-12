@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/admin/assets/59350797/" isTestSource="false" packagePrefix="kartik\plugins\fileinput\" />
       <sourceFolder url="file://$MODULE_DIR$/filemgr.0VGWte.2024-01-27_13_03_28" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/www" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/www/admin/assets/59350797/" isTestSource="false" packagePrefix="kartik\plugins\fileinput\" />
+      <sourceFolder url="file://$MODULE_DIR$/www/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/alexandernst/yii2-device-detect" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/almasaeed2010/adminlte" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/arogachev/yii2-sortable" />
